@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 2px;
+    }
+    header {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        background-color: #551A8B;
+    }
+    ul {
+        list-style: none;
+        padding: 10px;
+    }
+    li {
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    * {
+        margin: 2px;
+    }
+    header {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        background-color: #551A8B;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        white-space: nowrap;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        list-style: none;
+        padding: 10px;
+    }
+    li {
+        margin-left: 20px;
+    }
+    
+    
+}

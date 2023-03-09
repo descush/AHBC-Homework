@@ -1,0 +1,140 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #f9fafc;
+    height: 100vh;
+    margin: 12px;
+}
+a {
+    color: #69696a;
+    text-decoration: none;
+    padding: 0px 10px 10px 0px;
+}
+.topo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+button {
+    color: #FFF;
+    border: 10px solid #000;
+    background-color: #000;
+    border-radius: 20px;
+    width: 100%;
+}
+p {
+    border-left: 2px solid #69696a;
+    padding-left: 10px;
+    color: #69696a;
+}
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(247, 193, 162, 0.7);
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+}
+footer {
+    margin: 16px 8px;
+}
+@media only screen and (min-width: 768px) {
+    * {
+        font-family: 'Open Sans', sans-serif;
+    }
+    body {
+        background-color: #f9fafc;
+        height: 100vh;
+        margin: 12px;
+    }
+    a {
+        color: #69696a;
+        text-decoration: none;
+    }
+    .head {
+        display: flex;
+        justify-content: space-between;
+    }
+    header {
+        padding-top: 16px;
+    }
+    .topo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        white-space: nowrap;
+        padding-left: 0px;
+    }
+    button {
+        color: #FFF;
+        border: 10px solid #000;
+        background-color: #000;
+        border-radius: 20px;
+        width: 100%;
+    }
+    p {
+        border-left: 2px solid #69696a;
+        padding-left: 10px;
+        color: #69696a;
+    }
+    #half {
+        width: 50%;
+    }
+    .para {
+        display: flex;
+        justify-content: space-between;
+    }
+    #cone {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        display: inline-flex;
+        position: absolute;
+        top: 120px;
+        right: 120px;
+        
+    }
+    #ctwo {
+        width: 120px;
+        height: 120px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        display: inline-flex;
+        position: absolute;
+        right: 55px;
+        top: 155px;
+    }
+    #cthree {
+        width: 160px;
+        height: 160px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        display: inline-flex;
+        position: absolute;
+        right: 60px;
+        top: 240px;
+
+    }
+    .foot {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(247, 193, 162, 0.7);
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        height: 50px;
+    }
+    footer {
+        margin: 16px 8px;
+    }
+
+}

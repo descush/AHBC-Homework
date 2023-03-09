@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px) {
+    #outside {
+        background-color: #EC7577;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #form {
+        width: 450px;
+        height: 300px;
+        padding: 20px;
+        background-color: #ECECEC;
+        box-shadow: 1px 1px 6px 0px darkgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        color: gray;
+    }
+    #form > * {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    input {
+        border: 1px solid lightgrey;
+        border-radius: 2px;
+    }
+    input[type=text] {
+        width: 75%;
+        height: 25px;
+        padding: 12px 20px;
+    }
+    input[type=submit] {
+        width: 25%;
+        height: 35px;
+        padding: 12px 20px;
+        color: white;
+        background-color: #82D9D4;
+        border-color: #82D9D4;
+        vertical-align: middle;
+    }
+    .ugh {
+        width: 85%;
+        display: flex;
+        align-content: flex-start;
+    }
+}
